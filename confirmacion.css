@@ -20,6 +20,15 @@ header nav a {
     text-decoration: none; 
     color: black; 
     font-weight: 600; 
+    padding: 8px 15px;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+header nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 230, 230, 0.321);
+    transform: scale(1.5);
 }
 h2{
     text-align: center;
@@ -32,8 +41,8 @@ h4{
 footer { 
     background-color: rgb(108, 117, 125); 
     text-align: center; 
-    padding: 15px; 
-    color: white; 
+    padding: 2px; 
+    color: black; 
 }
 @media screen and (max-width: 900px) {
   .personajes { grid-template-columns: repeat(2, 1fr); }

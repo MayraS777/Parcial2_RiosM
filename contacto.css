@@ -62,8 +62,8 @@ button:hover {
 footer { 
     background-color: rgb(108, 117, 125); 
     text-align: center; 
-    padding: 15px; 
-    color: white; 
+    padding: 2px; 
+    color: black; 
 }
 @media screen and (max-width: 900px) {
   .personajes { grid-template-columns: repeat(2, 1fr); }
